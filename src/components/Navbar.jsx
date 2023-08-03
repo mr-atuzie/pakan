@@ -43,15 +43,13 @@ const Navbar = () => {
         </div>
       </div>
       {nav && (
-        <div className=" z-30 duration-300 flex flex-col fixed  shadow-md bg-gray-50 top-0 right-0  w-[90vw] h-screen">
-          <div className=" bg-white p-4 flex justify-between items-center">
+        <div className=" z-30 duration-300 flex flex-col fixed  shadow-md bg-black/90 top-0 right-0  w-[80vw] h-screen">
+          <div className=" bg-red-500 p-4 flex justify-between items-center">
             <div>
-              <h1 className="text-red-600  text-xl lg:text-5xl font-semibold ">
+              <h1 className="text-white text-xl lg:text-5xl font-semibold ">
                 CHIMDI
               </h1>
-              <p className=" text-gray-500 font-medium text-xs">
-                Gym Instructor
-              </p>
+              <p className=" text-gray-500 font-medium text-xs">Instructor</p>
             </div>
             <div
               onClick={() => setNav(!nav)}

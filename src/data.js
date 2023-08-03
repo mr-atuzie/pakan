@@ -1,3 +1,7 @@
+import { CgGym } from "react-icons/cg";
+import { FaPeopleCarry } from "react-icons/fa";
+import { GiMuscleUp } from "react-icons/gi";
+
 export const reviews = [
   {
     id: 5,
@@ -43,5 +47,26 @@ export const reviews = [
     time: "8:30am - 9:30am, Saturday.",
     img: "https://www.baltimoresun.com/resizer/NR_4Yue1ogPvrbw5fcrWp5CMQf0=/2400x1680/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/tronc/53H6RMN3JJHDFMXCLKY2KO4RMI.jpg",
     quote: "That booty takes work,Girl",
+  },
+];
+
+export const whyUs = [
+  {
+    id: 1,
+    img: <CgGym size={50} />,
+    title: "Wide Range of Programs",
+    text: "Our timetable offers a wide range of low to high intensity programmes,There is something for everyone.",
+  },
+  {
+    id: 2,
+    img: <FaPeopleCarry size={50} />,
+    title: "Supportive Community",
+    text: "Enjoy a sense of belonging with a community that can support you through your goals, hold you accountable and remind you that You are not alone! ",
+  },
+  {
+    id: 3,
+    img: <GiMuscleUp size={50} />,
+    title: "Funky Instructor",
+    text: "The comprehensive dance workout that combines all the key elements of a balanced training for your perfect all-in-one training.",
   },
 ];

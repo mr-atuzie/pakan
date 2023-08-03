@@ -1,7 +1,7 @@
 import React from "react";
 import { reviews } from "../data";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { BiSolidQuoteAltLeft } from "react-icons/bi";
+import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from "react-icons/bi";
 import { GiAlarmClock } from "react-icons/gi";
 import "swiper/css";
 // import "swiper/swiper-bundle.min.css";
@@ -91,7 +91,7 @@ const PropertiesCard = ({ name, img, time, quote }) => {
         <img
           src={img}
           alt={name}
-          className=" w-full h-72 object-cover rounded-t-lg "
+          className=" w-full h-80 object-cover rounded-t-lg "
         />
         <div className=" bg-red-500/25 w-full h-full absolute top-0 "></div>
       </div>
@@ -107,7 +107,8 @@ const PropertiesCard = ({ name, img, time, quote }) => {
         </div>
         <div className="flex">
           <BiSolidQuoteAltLeft size={20} color="red" />
-          <p className="text-sm font-medium capitalize ml-1 mt-1">{quote}</p>
+          <p className="text-sm font-medium capitalize mx-1 mt-1">{quote}</p>
+          <BiSolidQuoteAltRight size={20} color="red" />
         </div>
       </div>
     </div>
