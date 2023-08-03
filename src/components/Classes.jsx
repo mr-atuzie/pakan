@@ -98,12 +98,12 @@ const PropertiesCard = ({ name, img, time, quote }) => {
 
       <div className="p-4 ">
         <div className=" flex  items-center">
-          <div className=" bg-red-200 p-1 h-fit rounded-full"></div>
+          <div className=" bg-red-300 p-1 h-fit rounded-full"></div>
           <p className=" ml-1 uppercase font-semibold">{name}</p>
         </div>
-        <div className="flex items-center">
-          <GiAlarmClock size={20} color="red" />
-          <p className=" ml-1 text-gray-700 my-1">{time}</p>
+        <div className="flex text-gray-700 items-center">
+          <GiAlarmClock size={20} />
+          <p className=" ml-1  my-1">{time}</p>
         </div>
         <div className="flex">
           <BiSolidQuoteAltLeft size={20} color="red" />
