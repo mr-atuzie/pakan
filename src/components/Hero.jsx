@@ -18,7 +18,7 @@ const Hero = () => {
             <span className=" text-red-600"> ACHIEVE</span>
           </h1>
 
-          <p className="text-gray-300 tracking-wide capitalize my-6">
+          <p className="text-gray-300 tracking-wide capitalize text-sm lg:text-base my-6">
             Chimdi programs are designed for universal scalability, making it
             the perfect application for any committed individual regardless of
             experience.
