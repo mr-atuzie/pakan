@@ -16,13 +16,13 @@ import "swiper/css/scrollbar";
 
 const Classes = () => {
   return (
-    <div className=" py-10 lg:py-16 bg-gray-50 ">
-      <div className="w-[80%] mt-10 lg:mt-0 mx-auto ">
+    <div className=" py-8 lg:py-16 bg-gray-50 ">
+      <div className=" w-[90%] lg:w-[80%] mt-10 lg:mt-0 mx-auto ">
         <div>
           <div className=" text-red-600 text-center capitalize text-3xl font-semibold">
             Our Classes
           </div>
-          <p className="font-medium text-center">
+          <p className="text-sm lg:text-base font-medium text-center">
             Build Your Body And Transform Your Life.
           </p>
         </div>
@@ -103,11 +103,13 @@ const PropertiesCard = ({ name, img, time, quote }) => {
         </div>
         <div className="flex text-gray-700 items-center">
           <GiAlarmClock size={20} />
-          <p className=" ml-1  my-1">{time}</p>
+          <p className=" ml-1  my-1 text-sm lg:text-base">{time}</p>
         </div>
         <div className="flex">
           <BiSolidQuoteAltLeft size={20} color="red" />
-          <p className="text-sm font-medium capitalize mx-1 mt-1">{quote}</p>
+          <p className="text-xs lg:text-sm font-medium capitalize mx-1 mt-1">
+            {quote}
+          </p>
           <BiSolidQuoteAltRight size={20} color="red" />
         </div>
       </div>

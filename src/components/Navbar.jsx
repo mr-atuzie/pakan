@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
   return (
     <div className=" p-4 absolute top-0 z-40  w-full   ">
-      <div className="w-[80%] mx-auto  flex justify-between items-center">
+      <div className=" w-[90%] lg:w-[80%] mx-auto  flex justify-between items-center">
         <div>
           <h1 className=" text-red-600 z-10 text-3xl lg:text-5xl font-semibold  uppercase  ">
             CHIMDI
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
       </div>
       {nav && (
-        <div className=" z-30 duration-300 flex flex-col fixed  shadow-md bg-black/90 top-0 right-0  w-[80vw] h-screen">
+        <div className=" z-50 duration-300 flex flex-col fixed  shadow-md bg-black/90 top-0 right-0  w-[80vw] h-screen">
           <div className=" bg-red-500 p-4 flex justify-between items-center">
             <div>
               <h1 className="text-white text-xl lg:text-5xl font-semibold ">
@@ -68,7 +68,7 @@ const Navbar = () => {
                 <Link to={link} onClick={() => setNav(!nav)}>
                   <li
                     key={id}
-                    className=" px-4 cursor-pointer capitalize py-4 text-xl  hover:scale-105 duration-200"
+                    className=" px-4 cursor-pointer text-gray-50 capitalize py-4 text-xl  hover:scale-105 duration-200"
                   >
                     {name}
                   </li>
