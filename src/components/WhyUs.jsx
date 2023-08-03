@@ -31,10 +31,12 @@ const WhyUs = () => {
                     {img}
                   </div>
                   <div className=" p-3">
-                    <h3 className="text-white uppercase font-medium text-lg lg:text-xl">
+                    <h3 className="text-white uppercase font-medium text-lg lg:text-xl text-center lg:text-start">
                       {title}
                     </h3>
-                    <p className=" text-gray-50">{text}</p>
+                    <p className=" text-gray-50 text-sm lg:text-base text-center lg:text-start">
+                      {text}
+                    </p>
                   </div>
                 </div>
               );
