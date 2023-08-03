@@ -97,9 +97,9 @@ const PropertiesCard = ({ name, img, time, quote }) => {
       </div>
 
       <div className="p-4 ">
-        <div className=" flex gap-1 items-center">
+        <div className=" flex  items-center">
           <div className=" bg-red-200 p-1 h-fit rounded-full"></div>
-          <p className=" uppercase font-semibold">{name}</p>
+          <p className=" ml-1 uppercase font-semibold">{name}</p>
         </div>
         <div className="flex items-center">
           <GiAlarmClock size={20} color="red" />
