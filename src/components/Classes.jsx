@@ -16,7 +16,7 @@ import "swiper/css/scrollbar";
 
 const Classes = () => {
   return (
-    <div className="py-16 bg-gray-50 ">
+    <div className=" py-10 lg:py-16 bg-gray-50 ">
       <div className="w-[80%] mt-10 lg:mt-0 mx-auto ">
         <div>
           <div className=" text-red-600 text-center capitalize text-3xl font-semibold">
