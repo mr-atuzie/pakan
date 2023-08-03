@@ -24,7 +24,7 @@ const Hero = () => {
             experience.
           </p>
 
-          <button className=" bg-red-600 text-white px-4 py-3 capitalize hover:bg-white hover:text-black hover:border-2 hover:border-black ">
+          <button className=" rounded-lg bg-red-600 text-white px-4 py-3 capitalize hover:bg-white hover:text-black hover:border-2 hover:border-black ">
             Let's Get Started
           </button>
         </div>
