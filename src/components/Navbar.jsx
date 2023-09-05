@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className=" p-4 absolute top-0 z-40  w-full   ">
       <div className=" w-[90%] lg:w-[80%] mx-auto  flex justify-between items-center">
         <div>
-          <h1 className=" text-blue-700 z-10 text-3xl lg:text-5xl font-semibold  uppercase  ">
+          <h1 className=" text-blue-700 z-10 text-xl lg:text-5xl font-semibold  uppercase  ">
             spice trade
           </h1>
         </div>
