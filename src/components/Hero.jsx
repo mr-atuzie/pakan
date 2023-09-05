@@ -13,8 +13,8 @@ const Hero = () => {
       />
 
       <div className=" w-full h-full absolute top-0 z-30 bg-black/80 flex  items-center">
-        <div className=" w-[80%] mx-auto text-center">
-          <h1 className=" text-white text-3xl lg:text-5xl font-bold capitalize">
+        <div className=" w-[80%] mx-auto lg:text-center">
+          <h1 className=" text-white text-2xl lg:text-5xl font-bold capitalize">
             BUY, RECEIVE , INVEST
             <span className=" text-blue-700"> ACHIEVE</span>
           </h1>

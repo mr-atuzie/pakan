@@ -70,7 +70,7 @@ const Navbar = () => {
                 <Link to={link} onClick={() => setNav(!nav)}>
                   <li
                     key={id}
-                    className=" px-4 cursor-pointer text-gray-50 capitalize py-4 text-xl  hover:scale-105 duration-200"
+                    className=" px-4 cursor-pointer text-gray-50 capitalize py-4   hover:scale-105 duration-200"
                   >
                     {name}
                   </li>
