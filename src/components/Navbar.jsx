@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className=" w-[90%] lg:w-[80%] mx-auto  flex justify-between items-center">
         <div>
           <h1 className=" text-blue-700 z-10 text-3xl lg:text-5xl font-semibold  uppercase  ">
-            spice
+            spice trade
           </h1>
         </div>
 
@@ -47,12 +47,11 @@ const Navbar = () => {
       </div>
       {nav && (
         <div className=" z-50 duration-300 flex flex-col fixed  shadow-md bg-black/90 top-0 right-0  w-[80vw] h-screen">
-          <div className=" bg-red-500 p-4 flex justify-between items-center">
+          <div className=" bg-blue-700 p-4 flex justify-between items-center">
             <div>
-              <h1 className="text-white text-xl lg:text-5xl font-semibold ">
-                CHIMDI
+              <h1 className="text-white text-xl uppercase lg:text-5xl font-semibold ">
+                Spice trade
               </h1>
-              <p className=" text-gray-500 font-medium text-xs">Instructor</p>
             </div>
             <div
               onClick={() => setNav(!nav)}
