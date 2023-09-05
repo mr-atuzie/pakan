@@ -1,16 +1,16 @@
 import React from "react";
-import crypto1 from "../assets/crypto2.mp4";
+// import crypto1 from "../assets/crypto2.mp4";
 
 const Hero = () => {
   return (
     <div className="relative h-[70vh] lg:h-[80vh]  bg-black w-full">
-      <video
+      {/* <video
         src={crypto1}
         className=" w-full h-full object-cover"
         autoPlay
         loop
         muted
-      />
+      /> */}
 
       <div className=" w-full h-full absolute top-0 z-30 bg-black/80 flex  items-center">
         <div className=" w-[80%] mx-auto text-center">
